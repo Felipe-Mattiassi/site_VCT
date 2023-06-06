@@ -36,6 +36,11 @@ label {
 }
 
 
+.navbar-toggler {
+    background-color: #ffffff;
+}
+
+
 textarea {
     resize: none;
 }

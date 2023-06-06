@@ -16,16 +16,19 @@
     <header id="cabecalho" class="navbar navbar-expand-lg sticky-top p-4">
         <div class="container">
             <h1 class="navbar-brand tiltle m-0">VCT NEWS</h1>
-            <nav>
-                <ul class="nav nav-pills">
+            <button id="button-hamburguer" class="navbar-toggler m-1" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav id="menu-navegacao" class="navbar-collapse collapse justify-content-end">
+                <ul class="d-block nav nav-pills d-lg-flex">
                     <li class="nav-item">
-                        <a class="nav-link active fw-bold" href="#sobre">Sobre</a>
+                        <a class="nav-link active fw-bold" href="#sobre">Classificados</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-bold" href="#eventos">Eventos</a>
+                        <a class="nav-link fw-bold" href="#eventos">Maiores reivais do Brasil</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-bold" href="#cardapio">Times Brasileiros</a>
+                        <a class="nav-link fw-bold" href="#cardapio">Times Brasileiros classificados</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link fw-bold" href="#contato">Fale conosco</a>
@@ -45,7 +48,7 @@
                         <img src="imagens/vct2.png" alt="">
                     </div>
                     <div class="carousel-item" data-bs-interval="3000">
-                        <img src="imagens/Vct.png" alt="">imagens/Vct.png
+                        <img src="imagens/Vct.png" alt="">
                     </div>
                 </div>
                 <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carousel">
@@ -60,10 +63,10 @@
                     <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
                 </div>
             </div>
-            <div class="pt-5 pb-5">
+            <div class="pt-4 pb-4 pt-lg-5 pb-lg-5">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-5">
+                        <div class="col-md-5 mb-3">
                             <img id="img-tabela" src="https://www.strafe.com/_next/image/?url=https%3A%2F%2Fwww.strafe.com%2Fbr%2Fapostas-esports%2Fstrafe-news%2Fwp-content%2Fuploads%2Fsites%2F30%2Fvvct-america.png&w=3840&q=75" alt="">
                         </div>
                         <div class="col-md-7">
@@ -90,7 +93,7 @@
                     </h2>
                     <div class="row mt-4">
                         <div class="col-md-4">
-                            <img class="times" src="imagens/NRG.png" alt="">
+                            <img class="times mb-1" src="imagens/NRG.png" alt="">
                             <h3 class="text-colored-red">NRG</h3>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam suscipit dolore saepe dignissimos nemo ratione ab praesentium rem! Perspiciatis obcaecati odit ut nobis commodi quis necessitatibus velit repellendus assumenda?
@@ -99,7 +102,7 @@
                         </div>
                         <div class="col-md-4">
                             
-                            <img class="times" src="imagens/cloud9.png" alt="">
+                            <img class="times mb-1" src="imagens/cloud9.png" alt="">
                             <h3 class="text-colored-red">Cloud9</h3>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium autem dignissimos officiis provident odio beatae? Dolorum quas quis, dolore excepturi porro consequatur quia consequuntur repellat minus eveniet officiis, autem saepe.
@@ -107,7 +110,7 @@
                             </p>
                         </div>
                         <div class="col-md-4">
-                            <img class="times" src="imagens/EGRoster1.png" alt="">
+                            <img class="times mb-1" src="imagens/EGRoster1.png" alt="">
                             <h3 class="text-colored-red">Evil Geniuses</h3>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
@@ -438,13 +441,13 @@
                                 <label for="mensagem" class="form-label">Seu nome</label>
                                 <textarea id="mensagem" class="form-control"></textarea>
                             </div>
-                            <div class="mb-3">
+                            <div class="mb-5">
                                 <button type="submit" class="btn btn-success">Enviar</button>
                             </div>
                         </form>
                     </div>
                     <div class="col-md-5 ">
-                        <div class="row">
+                        <div class="row mt-4">
                             <h3>
                                 <i class="bi bi-hand-thumbs-up-fill text-colored-red"></i>
                                 Redes sociais
